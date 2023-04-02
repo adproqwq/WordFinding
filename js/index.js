@@ -18,7 +18,7 @@ $(function () {
                     const audios = new Audio('./audio/spasmodic.mp3')
                     audios.play()
                 }
-                else{
+                if(url_value != 'homo' && url_value != 'rickroll' && url_value == 'rickastley' && url_value != 'spasmodic'){
                     window.open('https://game.gadpro.tk/success.html', "_blank");
                 }
             }
