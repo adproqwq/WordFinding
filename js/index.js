@@ -26,6 +26,10 @@ $(function () {
                     const audior = new Audio('./audio/random.mp3')
                     audior.play()
                 }
+                else if(url_value == 'again'){
+                    const audioa = new Audio('./audio/again.mp3')
+                    audioa.play()
+                }
                 else{
                     window.open('https://game.gadpro.tk/success.html', "_blank");
                 }
