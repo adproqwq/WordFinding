@@ -18,6 +18,14 @@ $(function () {
                     const audios = new Audio('./audio/spasmodic.mp3')
                     audios.play()
                 }
+                else if(url_value == 'chicken'){
+                    const audioc = new Audio('./audio/chicken.mp3')
+                    audioc.play()
+                }
+                else if(url_value == 'random'){
+                    const audior = new Audio('./audio/random.mp3')
+                    audior.play()
+                }
                 else{
                     window.open('https://game.gadpro.tk/success.html', "_blank");
                 }
