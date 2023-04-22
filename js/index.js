@@ -1,7 +1,6 @@
 $(function () {
     $(window).keydown(function (event){
-        var keycode = event.which;
-        if (keycode == 13) {
+        if (event.key == 'Enter') {
             var url_value = $("#inputinfo").val();
             if(url_value == 'thank'){
                 window.open('https://game.gadpro.tk/thank.html', "_blank");
