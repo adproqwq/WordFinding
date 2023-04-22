@@ -33,6 +33,10 @@ $(function () {
                     const audioo = new Audio('audio\\one.mp3')
                     audioo.play()
                 }
+                else if(url_value == 'crime'){
+                    const audioi = new Audio('audio\\crime.mp3')
+                    audioi.play()
+                }
                 else{
                     window.open('https://game.gadpro.tk/success.html', "_blank");
                 }
