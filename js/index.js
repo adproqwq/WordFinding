@@ -10,7 +10,7 @@ $(function () {
                     const audioh = new Audio('audio\\homo.mp3')
                     audioh.play()
                 }
-                else if(url_value == 'rickroll' || url_value == 'rickastley'){
+                else if(url_value == 'rickroll'){
                     window.open('https://www.bilibili.com/video/BV1GJ411x7h7')
                 }
                 else if(url_value == 'spasmodic'){
@@ -36,6 +36,10 @@ $(function () {
                 else if(url_value == 'crime'){
                     const audioi = new Audio('audio\\crime.mp3')
                     audioi.play()
+                }
+                else if(url_value == 'sky'){
+                    const audiok = new Audio('audio\\sky.mp3')
+                    audiok.play()
                 }
                 else{
                     window.open('https://game.gadpro.tk/success.html', "_blank");
