@@ -42,8 +42,9 @@ $(function () {
                     audiok.play()
                 }
                 else if(isNaN(url_value) == false){
-                    var num = homo(Number(url_value))
-                    return num
+                    window.Data = {
+                        num : homo(Number(url_value))
+                    }
                     window.open('https://game.gadpro.tk/stinking.html')
                 }
                 else{
