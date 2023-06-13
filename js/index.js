@@ -41,6 +41,10 @@ $(function () {
                     const audiok = new Audio('audio\\sky.mp3')
                     audiok.play()
                 }
+                else if(isNaN(url_value) == false){
+                    var num = homo(Number(url_value))
+                    window.open('https://game.gadpro.tk/stinking.html')
+                }
                 else{
                     window.open('https://game.gadpro.tk/success.html', "_blank");
                 }
