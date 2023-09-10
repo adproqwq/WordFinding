@@ -1,4 +1,4 @@
-$(function () {
+%$(function () {
     $(window).keydown(function (event){
         if (event.key == 'Enter') {
             var url_value = $("#inputinfo").val();
@@ -45,10 +45,10 @@ $(function () {
                     window.Data = {
                         num : homo(Number(url_value))
                     }
-                    window.open('https://game.gadpro.tk/stinking.html')
+                    window.open('https://game.adproxyz.xyz/stinking.html')
                 }
                 else{
-                    window.open('https://game.gadpro.tk/success.html', "_blank");
+                    window.open('https://game.adproxyz.xyz/success.html', "_blank");
                 }
             }
         };
