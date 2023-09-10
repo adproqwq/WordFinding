@@ -41,12 +41,6 @@
                     const audiok = new Audio('audio\\sky.mp3')
                     audiok.play()
                 }
-                else if(isNaN(url_value) == false){
-                    window.Data = {
-                        num : homo(Number(url_value))
-                    }
-                    window.open('https://game.adproqwq.xyz/stinking.html')
-                }
                 else{
                     window.open('https://game.adproqwq.xyz/success.html', "_blank");
                 }
