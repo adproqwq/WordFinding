@@ -1,4 +1,4 @@
-%$(function () {
+$(function () {
     $(window).keydown(function (event){
         if (event.key == 'Enter') {
             var url_value = $("#inputinfo").val();
