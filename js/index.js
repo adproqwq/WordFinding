@@ -3,7 +3,7 @@ $(function () {
         if (event.key == 'Enter') {
             var url_value = $("#inputinfo").val();
             if(url_value == 'thank'){
-                window.open('https://game.gadpro.tk/thank.html', "_blank");
+                window.open('https://game.adproqwq.xyz/thank.html', "_blank");
             }
             else{
                 if(url_value == 'homo'){
